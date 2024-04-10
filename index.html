@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Baloo Bhaina 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            margin: 0;
+            padding: 0;
+        }
+
+        #mainlogo {
+            height: 40px;
+            margin-top: 5px;
+        }
+
+        .container .nav {
+            display: flex;
+            /* border: 2px solid red; */
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .rightbar div {
+            float: left;
+            padding: 10px;
+        }
+
+        .rightbar {
+            position: absolute;
+            right: 10px;
+            margin-top: 5px;
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        .searchbar {
+            right: 200px;
+            display: flex;
+            position: absolute;
+            top: 40px;
+        }
+
+        #search {
+            height: 39px;
+            width: 283px;
+            padding-left: 5px;
+            background-color: #f5f5f6;
+            border: transparent;
+            padding-left: 10px;
+            border: 2px;
+            margin-top: -9px;
+            right: 15px;
+            position: absolute;
+            border-radius: 5px;
+            text-align: center;
+            text-align: left;
+        }
+
+        .container {
+            margin: 10px;
+            height: 100px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            /* border: 2px solid black; */
+            height: 80px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav {
+            margin-top: 20px;
+            height: 80px;
+            font-weight: 550;
+            color: #282c3f;
+        }
+
+        #mainlogo {
+            height: 60px;
+        }
+
+        ul li {
+            margin-top: 5px;
+        }
+        #supscript{
+            color: #ff7d9b;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Himanshu chand is a good boy</p>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="" id="mainlogo">
+            </div>
+            <div class="navigations">
+                <ul>
+                    <li>MEN</li>
+                    <li>WOMEN</li>
+                    <li>KIDS</li>
+                    <li>HOME & LIVING</li>
+                    <li>BEAUTY</li>
+                    <li>STUDIO <sup id="supscript">NEW</sup></li>
+                </ul>
+            </div>
+            <div class="searchbar">
+                <input type="search" placeholder="Search for products, brands and more" id="search">
+            </div>
+            <div class="rightbar">
+                <div class="profile">Profile</div>
+                <div class="wishlist">Wishlist</div>
+                <div class="bag">Bag</div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
 </body>
+
 </html>
