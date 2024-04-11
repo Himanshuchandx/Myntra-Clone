@@ -16,6 +16,7 @@
             font-style: normal;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         #mainlogo {
@@ -80,7 +81,13 @@
             /* border: 2px solid black; */
             height: 80px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            z-index: 1000;
         }
+
 
         .nav {
             margin-top: 20px;
@@ -95,9 +102,54 @@
 
         ul li {
             margin-top: 5px;
+            cursor: pointer;
         }
-        #supscript{
+
+        #supscript {
             color: #ff7d9b;
+        }
+        .cont2{
+            margin-top: 80px;
+        }
+        .banner1 {
+            position: absolute;
+            /* top: 0; */
+            right: 0;
+            left: 0;
+            height: auto;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .cont3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .banner2,
+        .banner3 {
+            width: 100%;
+            height: 580px;
+            /* display: block; */
+            object-fit: contain;
+        }
+        .coupons{
+            width: 100%;
+            margin-top: -80px;
+        }
+        .cont5{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: auto;
+            cursor: pointer;
+        }
+        .b4,.b5{
+            width: 100%;
+            height: auto;
+            /* display: block; */
+            object-fit: contain;
         }
     </style>
 </head>
@@ -126,6 +178,31 @@
                 <div class="wishlist">Wishlist</div>
                 <div class="bag">Bag</div>
             </div>
+        </div>
+    </div>
+    <div class="cont2">
+        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/07db5d9a-fde2-4da3-bec6-c902ef6529611712230006754-FLAT-400-Off-on-1st-Purchase-Strip-----7.jpg"
+            alt="" class="banner1">
+    </div>
+    <div class="cont3">
+        <div class="b2">
+            <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/a06ccd8e-a927-472d-b931-3acaa525b40f1712230168515-Untitled-1_01.jpg"
+                alt="" class="banner2">
+        </div>
+        <div class="b3">
+            <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/d3805dcc-3d5f-4e16-b71e-fa0b65483d8e1712230168506-Untitled-1_02.jpg"
+                alt="" class="banner3">
+        </div>
+    </div>
+    <div class="cont4">
+        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/a2a5a482-1041-4559-af3c-000a7dce1d2a1712230073908-COUPONS-CORNER-----7.jpg" alt="" class="coupons">
+    </div>
+    <div class="cont5">
+        <div class="b4">
+            <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/f883b054-5af7-4372-9ba0-ea745ea3b90a1712229858280-MYNTRA100-----8.jpg" alt="" class="b4">
+        </div>
+        <div class="b5">
+            <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/4/4/80d887cd-2af4-4ce2-ae20-2a82b635d8551712229858255-MYNTRA200-----9.jpg" alt="" class="b5">
         </div>
     </div>
     <script>
